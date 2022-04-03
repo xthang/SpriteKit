@@ -1,4 +1,4 @@
-package x.spritekit
+package x.core
 
 import kotlin.math.pow
 import kotlin.math.sqrt

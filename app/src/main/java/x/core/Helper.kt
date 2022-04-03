@@ -1,4 +1,4 @@
-package x.spritekit
+package x.core
 
 import android.app.ActivityManager
 import android.content.Context

@@ -12,8 +12,7 @@ import org.andengine.opengl.util.GLState
 import org.andengine.opengl.vbo.DrawType
 import org.andengine.opengl.vbo.HighPerformanceVertexBufferObject
 import org.andengine.util.color.ColorUtils
-import x.spritekit.CommonConfig
-import x.spritekit.TimeInterval
+import x.core.TimeInterval
 import x.core.graphics.*
 import x.core.graphics.Point
 import kotlin.math.cos

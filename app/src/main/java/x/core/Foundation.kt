@@ -1,4 +1,4 @@
-package x.spritekit
+package x.core
 
 typealias TimeInterval = Double
 

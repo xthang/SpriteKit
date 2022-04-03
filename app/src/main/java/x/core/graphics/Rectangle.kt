@@ -2,7 +2,7 @@ package x.core.graphics
 
 import android.graphics.Path
 import android.graphics.RectF
-import x.spritekit.Utils
+import x.core.Utils
 import kotlin.math.min
 import kotlin.math.pow
 

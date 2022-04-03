@@ -5,7 +5,7 @@ import android.os.Handler
 import android.os.Looper
 import org.andengine.engine.camera.Camera
 import org.andengine.opengl.util.GLState
-import x.spritekit.TimeInterval
+import x.core.TimeInterval
 import x.core.graphics.Vector
 import java.lang.ref.WeakReference
 

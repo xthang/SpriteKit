@@ -1,7 +1,7 @@
 package x.spritekit
 
 import android.util.Log
-import x.spritekit.NSLineBreakMode
+import x.core.NSLineBreakMode
 import x.core.graphics.Size
 
 class SKLabelNode2() : SKNode() {

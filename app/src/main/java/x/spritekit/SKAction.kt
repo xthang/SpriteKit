@@ -1,6 +1,6 @@
 package x.spritekit
 
-import x.spritekit.TimeInterval
+import x.core.TimeInterval
 import x.core.graphics.Point
 
 enum class SKActionTimingMode {
