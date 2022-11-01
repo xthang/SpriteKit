@@ -7,7 +7,7 @@ import x.spritekit.R
 class AppConfig private constructor() {
 
 	companion object {
-		private const val TAG = "⚒︎"
+		private const val TAG = "⚒SK︎"
 
 		var fileProviderAuthority: String = ""
 

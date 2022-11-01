@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-	compileSdk 31
+	compileSdk target_sdk
 
 	defaultConfig {
 		minSdk 19
-		targetSdk 31
+		targetSdk target_sdk
 		versionCode 1
 		versionName "1.0"
 
@@ -52,16 +52,16 @@ android {
 
 dependencies {
 
-	implementation 'androidx.core:core-ktx:1.7.0'
+	implementation "androidx.core:core-ktx:$android_core_version"
 //	implementation 'androidx.appcompat:appcompat:1.3.1'
 //	implementation 'com.google.android.material:material:1.5.0'
 
 	// Testing dependencies
-	testImplementation 'junit:junit:4.+'
+	testImplementation "junit:junit:$junit_version"
 	androidTestImplementation 'androidx.test.ext:junit:1.1.3'
 	androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 	// imported by XT
 	// Android
-	implementation 'androidx.annotation:annotation:1.3.0'
+	implementation 'androidx.annotation:annotation:1.5.0'
 }
