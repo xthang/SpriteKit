@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "SpriteKit"
 include ':app'
-include ':Lib-Share'

@@ -494,9 +494,7 @@ open class SKScene : SKNode(), IDrawable, View.OnTouchListener, View.OnKeyListen
 			bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
 			outputStream.close()
 
-			FileProvider.getUriForFile(
-				context, AppConfig.fileProviderAuthority, file
-			)
+			FileProvider.getUriForFile(context, AppConfig.fileProviderAuthority, file)
 		} catch (e: IOException) {
 			Log.d(TAG, "!-  takeScreenShot: IOException while trying to write file for sharing: $e")
 			null
